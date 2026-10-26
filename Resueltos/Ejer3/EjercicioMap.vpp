@@ -1,0 +1,26 @@
+
+class EjercicioMap
+
+types
+  public PAIS = <France> | <Denmark> |
+                <SouthAfrica> | <SaudiArabia> |
+                <England> | <Spain>;
+
+values
+
+  public static m1 : map PAIS to nat =
+    {<France> |-> 9,
+     <Denmark> |-> 4,
+     <SouthAfrica> |-> 2,
+     <SaudiArabia> |-> 1};
+
+  public static m2 : map nat to nat =
+    {1 |-> 2,
+     2 |-> 3,
+     3 |-> 4,
+     4 |-> 1};
+
+  public static Europe : set of PAIS =
+    {<France>, <England>, <Denmark>, <Spain>};
+
+end EjercicioMap
